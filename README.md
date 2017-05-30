@@ -13,6 +13,7 @@ This app will translate English words to "leetspeak".
 | The letter 'e' will be replaced with '3' | "leetspeak" | l33tsp3ak |
 | The letter 'o' will be replaced with '0' | "epicodus" | 3pic0dus |
 | An uppercase 'I' will be replaced with '1' | "Ice Cream Cone" | "1c3 Cr3am C0n3" |
+| The letter "t" should be replaced with"7 | "letter" | "l3773r" |
 
 
 ## Setup/Installation Requirements

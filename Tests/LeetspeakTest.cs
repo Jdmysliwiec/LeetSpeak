@@ -21,6 +21,12 @@ namespace Leetspeak.Objects
       LeetspeakTranslator newString = new LeetspeakTranslator();
       Assert.Equal("1c3 Cr3am C0n3", newString.Translate("Ice Cream Cone"));
     }
+    [Fact]
+    public void Translate_Inputt_ReturnSeven()
+    {
+      LeetspeakTranslator newString = new LeetspeakTranslator();
+      Assert.Equal("l3773r", newString.Translate("letter"));
+    }
   }
 }
 
