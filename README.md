@@ -11,6 +11,7 @@ This app will translate English words to "leetspeak".
 |  behavior | input  | output  |
 |---|---|---|
 | The letter 'e' will be replaced with '3' | "leetspeak" | l33tsp3ak |
+| The letter 'o' will be replaced with '0' | "epicodus" | 3pic0dus |
 
 
 
