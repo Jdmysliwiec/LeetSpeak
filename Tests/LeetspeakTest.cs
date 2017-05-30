@@ -27,12 +27,12 @@ namespace Leetspeak.Objects
       LeetspeakTranslator newString = new LeetspeakTranslator();
       Assert.Equal("l3773r", newString.Translate("letter"));
     }
-    // [Fact]
-    // public void Translate_InputS_ReturnsZ()
-    // {
-    //   LeetspeakTranslator newString = new LeetspeakTranslator();
-    //   Assert.Equal("s3pic0duz", newString.Translate("sepicodus"));
-    // }
+    [Fact]
+    public void Translate_InputS_ReturnsZ()
+    {
+      LeetspeakTranslator newString = new LeetspeakTranslator();
+      Assert.Equal("s3pic0duz", newString.Translate("sepicodus"));
+    }
   }
 }
 

@@ -10,8 +10,17 @@ namespace Leetspeak.Objects
       output = output.Replace("o", "0");
       output = output.Replace("I", "1");
       output = output.Replace("t", "7");
+      // output = string.Split()
+      char[] outputArray = output.ToCharArray();
+      for (int index = 0; index < outputArray.Length; index++)
+      {
+        if (outputArray[index] == 's')
+        {
+          outputArray[index] = 'z';
+        }
+      }
 
-      Console.WriteLine(output);
+      Console.WriteLine(outputArray);
       return output;
     }
   }
