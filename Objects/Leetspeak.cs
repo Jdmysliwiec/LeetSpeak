@@ -9,20 +9,10 @@ namespace Leetspeak.Objects
     {
       string output = userInput.Replace("e", "3");
       output = output.Replace("o", "0");
+      output = output.Replace("I", "1");
 
       Console.WriteLine(output);
       return output;
-
-      // if (userInput.Contains("e"))
-      // {
-      //   string output = userInput.Replace("e", "3");
-      //
-      // }
-      // else
-      // {
-      //   return "did not contain e or o";
-      // }
-
 
 
       }
