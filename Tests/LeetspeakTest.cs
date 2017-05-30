@@ -22,11 +22,17 @@ namespace Leetspeak.Objects
       Assert.Equal("1c3 Cr3am C0n3", newString.Translate("Ice Cream Cone"));
     }
     [Fact]
-    public void Translate_Inputt_ReturnSeven()
+    public void Translate_InputT_ReturnSeven()
     {
       LeetspeakTranslator newString = new LeetspeakTranslator();
       Assert.Equal("l3773r", newString.Translate("letter"));
     }
+    // [Fact]
+    // public void Translate_InputS_ReturnsZ()
+    // {
+    //   LeetspeakTranslator newString = new LeetspeakTranslator();
+    //   Assert.Equal("s3pic0duz", newString.Translate("sepicodus"));
+    // }
   }
 }
 
